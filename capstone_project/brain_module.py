@@ -44,8 +44,10 @@ class ChatGPT:
         # OpenAI API call
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",
-            messages=[
-                {"role": "system", "content": "You are a Spanish-speaking person learning English and want feedback on expressing yourself in natural English."},
+        temperature=1.1,
+        max_tokens=100,
+        messages=[
+            {"role": "system", "content": "You are an English professional in liguistics teaching English as a Second Language to Spanish-speaking people that want feedback on expressing in natural English. You provide explanations and add an analogy using the Spanish language as an example. You empathize and give an example: saying 'esta computadoras están disponible' is incorrect and instead you should say 'estas computadoras están disponibles'  to further illustrate your explaination"},
                 {"role": "user", "content": transcription},
             ]
         )
