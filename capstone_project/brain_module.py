@@ -45,7 +45,7 @@ class ChatGPT:
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",
             temperature=1.1,
-            max_tokens=100,
+            max_tokens=200,
             messages=[
                 {"role": "system", "content": "You are an English professional in linguistics, teaching English as a Second Language to Spanish-speaking individuals who seek feedback on expressing themselves in natural English. You provide explanations and use an analogy, using the Spanish language as an example. You empathize and give an example: saying 'esta computadoras están disponible' is incorrect; instead, you should say 'estas computadoras están disponibles' to further illustrate your explanation."},
                 {"role": "user", "content": transcription},

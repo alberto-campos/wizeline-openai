@@ -12,7 +12,7 @@ Example:
 **User Input:** Hello everyone, my name is Mr. Rodrigo Rodriguez. Hope your doing well. How do you call that? I want to make sure because I don't want to do a mistake. The bus is late, no? I guess is not good that the bus is always late.
 
 **AI Output:** 
-Hello, Mr. Rodrigo Rodriguez! It's great that you're learning English and seeking to improve your language skills. Firstly, "How do you call that?" might not sound very natural. A more commonly used phrasing would be "What do you call that?" or "What is that called?" When you said "I want to *make sure* because I don't want to *do* a mistake," The more natural way to phrase it is "I want to *be sure* because I don't want to *make* a mistake" Using 'make' and 'do' can be quite tricky in English, just like using 'ser' and 'estar' in Spanish.
+Hello, Mr. Rodrigo Rodriguez! It's great that you're learning English and seeking to improve your language skills. Firstly, "Hope your doing well" should be "I hope you are doing well." Also, "How do you call that?" might not sound very natural. A more commonly used phrasing would be "What do you call that?" or "What is that called?" When you said "I want to *make sure* because I don't want to *do* a mistake," The more natural way to phrase it is "I want to *be sure* because I don't want to *make* a mistake" Using 'make' and 'do' can be quite tricky in English, just like using 'ser' and 'estar' in Spanish. 
 
 
 # Installation and Requirements
